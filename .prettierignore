@@ -1,0 +1,15 @@
+package.json
+package-lock.json
+build
+config
+.babelrc
+docker-compose.yml
+docker-compose.*.yml
+tsconfig.json
+.gitignore
+.eslintrc
+.eslintignore
+.prettierrc
+.vscode
+node_modules
+docs

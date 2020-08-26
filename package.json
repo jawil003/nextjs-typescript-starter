@@ -1,19 +1,26 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
+  "name": "anywhere-school-frontend",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "type-check": "tsc"
+    "dev": "next-translate && next",
+    "dev:prodlike": "yarn export && serve -p 3000 ./out",
+    "build": "next-translate && next build",
+    "start": "next start -p $PORT",
+    "format": "npx prettier --write .",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "next-compose-plugins": "^2.2.0",
+    "next-offline": "^5.0.2",
     "@types/node": "^12.12.21",
+    "next-translate": "^0.17.1",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
     "typescript": "3.9.7"

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  overflow-x: hidden;
+}

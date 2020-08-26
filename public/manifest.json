@@ -1,0 +1,21 @@
+{
+  "name": "Willey3x37´s Portfolio",
+  "short_name": "Portfolio",
+  "description": "An Portfolio Web Application",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#165C6F",
+  "theme_color": "#165C6F",
+  "icons": [
+    {
+      "src": "/pictures/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/pictures/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
